@@ -1,8 +1,8 @@
 <script setup>
 import { onMounted, ref } from 'vue'
+import Card from '@/components/CardWork.vue'
 
 import worksJson from '@/public/work.json'
-import card from '@/components/CardWork.vue'
 
 const works = ref([])
 works.value = worksJson
@@ -32,8 +32,7 @@ onMounted(()=>{
   <div class="container mx-auto px-4 py-20">
     <div class="h1 font-medium pb-10">Works</div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <card v-for="card in works" :item="card" :key="card.id" ></card>
-      
+        <Card v-for="card in works" :item="card" :key="card.id" />
     </div>
     <div class="h2 text-center">Coming Soon...</div>
   </div>

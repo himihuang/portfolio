@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
+import IndexVue from '../views/frontend/index.vue'
 const routes =  [
   {
     path: '/',
@@ -9,7 +9,10 @@ const routes =  [
       {
         path: '/',
         name: 'index',
-        component: () => import('../views/frontend/index.vue'),
+        component: IndexVue,
+        beforeEnter: () => {
+          console.log(777)
+        }
       },
       {
         path: '/work',
@@ -37,7 +40,7 @@ const routes =  [
 
 const router = createRouter({
   linkActiveClass: "is--active",
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
 

@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 import worksJson from '@/public/work.json'
@@ -9,7 +9,6 @@ works.value = worksJson
 
 // const getImgPath = (path) /work.json'
 
-
 const route = useRoute()
 
 const work = ref([])
@@ -17,10 +16,9 @@ const id = ref(0)
 id.value = route.params.id - 1
 work.value = worksJson[id.value]
 const showLoading = ref(true)
-onMounted(()=>{
-    showLoading.value = false;
+onMounted(() => {
+  showLoading.value = false
 })
-
 </script>
 
 
@@ -36,6 +34,7 @@ onMounted(()=>{
     <div class="pt-10" v-html="work['html']">
      
     </div>
+
   </div>
 </template>
 

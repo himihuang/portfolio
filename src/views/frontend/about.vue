@@ -12,11 +12,12 @@ onMounted(() => {
   <div class="container mx-auto py-20 px-4">
     <div class="grid grid-cols-12 gap-6">
       <div class="col-start-1 col-end-13 md:col-end-11">
-        <div class="pb-10">
+        <div class="pb-10 text-left">
+
           <img
-            src="https://picsum.photos/600/400?grayscale"
+            src="@/assets/img/about_img.jpg"
             alt=""
-            class="object-cover h-48 w-96"
+            class="aspect-auto h-80 "
           />
         </div>
         <div>

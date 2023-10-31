@@ -12,7 +12,3 @@ const props = defineProps(['item'])
     </div>
   </RouterLink>
 </template>
-
-
-<style scoped>
-</style>
