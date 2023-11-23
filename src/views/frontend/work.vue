@@ -31,10 +31,10 @@ onMounted(() => {
       <p class="body_text mb-6">{{ work['subtitle'] }}</p>
       <img :src="work['img']" alt="" class="aspect-video w-full" />
     </div>
-    <!-- <div class="pt-10" v-html="work['html']">
+    <div class="pt-10" v-html="work['html']">
      
-    </div> -->
-    <div class="mb-6">
+    </div>
+    <!-- <div class="mb-6">
       <h3 class="h3 mb-6">設計流程 Process</h3>
       <img
         src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/process_pdf.png?raw=true"
@@ -165,7 +165,7 @@ onMounted(() => {
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -17,22 +17,22 @@ const routes =  [
       {
         path: '/work',
         name: 'work',
-        component: () => import('../views/frontend/index.vue'),
+        component: () => import('@/views/frontend/index.vue'),
       },
       {
         path: '/work/:id',
         name: 'workpage',
-        component: () => import('../views/frontend/work.vue')
+        component: () => import('@/views/frontend/work.vue')
       },
       {
         path: '/about',
         name: 'about',
-        component: () => import ('../views/frontend/about.vue')
+        component: () => import ('@/views/frontend/about.vue')
       },
       {
         path: '/contact',
         name: 'contact',
-        component: () => import('../views/frontend/contact.vue')
+        component: () => import('@/views/frontend/contact.vue')
       }
     ]
   }
