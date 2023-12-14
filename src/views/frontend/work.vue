@@ -26,20 +26,20 @@ onMounted(() => {
   <loading :active="showLoading"></loading>
 
   <div class="container mx-auto px-4 py-20">
-    <!-- <div>
+    <div>
       <h3 class="h3 mb-2">{{ work['title'] }}</h3>
       <p class="body_text mb-6">{{ work['subtitle'] }}</p>
       <img :src="work['img']" alt="" class="aspect-video w-full" />
     </div>
     <div class="pt-10" v-html="work['html']">
      
-    </div> -->
-    <div class="mb-6">
+    </div>
+    <!-- <div class="mb-6">
       <h3 class="h3 mb-6">設計流程 Process</h3>
       <img
         src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/process_pdf.png?raw=true"
         alt=""
-        class="w-full"
+        class="w-full pt-4"
       />
     </div>
     <div>
@@ -71,7 +71,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_1.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
         <div class="pb-6 mb-6">
@@ -98,7 +98,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_2.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
         <div class="pb-6 mb-6">
@@ -108,7 +108,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_3.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
           <p>以上是從眾多便利貼得出的詮釋，其中與本次專案有高度相關的部分用粉色便利貼及匡線標示起來。</p>
           <div class="mt-4">
@@ -138,7 +138,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_4.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
         <div class="pb-6 mb-6">
@@ -146,7 +146,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_5.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
         <div class="pb-6 mb-6">
@@ -154,7 +154,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_6.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
       </div>
@@ -166,7 +166,7 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_7.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
         <div class="pb-6 mb-6">
@@ -184,22 +184,22 @@ onMounted(() => {
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_9.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_10.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_11.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
           <img
             src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/googleMap_12.png?raw=true"
             alt=""
-            class="w-full"
+            class="w-full pt-4"
           />
         </div>
         <div class="pb-6 mb-6">
@@ -217,7 +217,7 @@ onMounted(() => {
           <p>透過使用者訪談，我們瞭解到使用者在規劃旅途和旅途中的常見行為，並透過競品分析了解實現這些功能的方法。由於我最近正在計畫旅行，使用每個產品的過程中深刻體會到各種功能的優勢和不足。這使我能夠明確了解哪些功能使用起來更順暢，哪些時候會感到卡頓。透過優化，我們不僅確保產品達到使用者的期望，還能夠有效地在其中完成任務。</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
