@@ -23,8 +23,9 @@ onMounted(()=>{
         <p>
           ”
           深知資訊是不斷迭代的過程,猶如產品一樣,需要透過用戶的反饋不斷的更新產品。才能帶給用戶體驗更佳的產品。
-          平常透過不斷的吸收UIUX相關知識,期望帶給使用者不只是外表美觀的產品,而是真正能夠達到使用者需求的產品。”
+          平常透過不斷的吸收UIUX相關知識,期望帶給使用者不只是外表美觀的產品,而是真正能夠達到使用者需求的產品。"<br><br>"I understand that information is an iterative process, and just like products, products need to be constantly updated through user feedback. In order to bring users a better product experience. I usually keep learning UIUX related knowledge, and expect to bring users not only beautiful products, but also products that can really meet the needs of the users.”
         </p>
+        
       </div>
     </div>
   </div>

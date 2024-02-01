@@ -20,7 +20,7 @@ onMounted(() => {
             class="aspect-auto h-80 "
           />
         </div>
-        <div>
+        <div class="mb-6">
           <p>
             我一直以來都認為，設計不僅僅是關於美感，更是關於提供出色的使用者體驗。我想分享一下我自己的設計旅程。
           </p>
@@ -40,6 +40,27 @@ onMounted(() => {
           <br />
           <p>
             總之，我是一位充滿熱情、不斷進修並尋求不斷進步的UI/UX設計師。我相信設計可以改變世界，並且希望有機會與您一同創建卓越的產品和使用者體驗。謝謝您聆聽我的故事，期待能有機會與您合作！
+          </p>
+        </div>
+        <div>
+          <p>
+            I've always believed that design is not just about aesthetics, but also about providing a great user experience. I would like to share my own design journey.
+          </p>
+          <br />
+          <p>
+            At the beginning, I was curious about front-end programming. I thought of programming as a tool to bring a design to life, to turn it into a real, an actual page that I could actually see. This process not only taught me how to understand the users' needs on a website, but also gave me a deeper understanding of the interaction between design and technology.
+          </p>
+          <br />
+          <p>
+            However, I came to realize that to create truly great products, you need more than just good looks, you need a great user experience. This inspired me to get passionate about UX (User Experience), and I started to study and learn how to design products that are more attractive, easy to use and accessible. I firmly believe that designers should have a "UX mindset" that puts the needs and expectations of the user first, and keep business value in mind at all times, constantly pursuing the best solution in the design process to create products that meet business value and user expectations.
+          </p>
+          <br />
+          <p>
+            I'm currently refining my skills by attending workshops, reading the latest UX research and sharing my experience with colleagues to ensure I'm able to deliver the best possible design and user experience. My goal is to take my designs to the next level and seamlessly combine them with technology and user needs.
+          </p>
+          <br />
+          <p>
+            Overall, I am a passionate UI/UX designer who is constantly learning and never stops looking to improve. I believe that design can change the world and would like to have the opportunity to work with you to create great products and user experiences. Thank you for listening to my story and I look forward to the opportunity to work with you!
           </p>
         </div>
       </div>
