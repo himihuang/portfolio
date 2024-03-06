@@ -11,6 +11,7 @@
     margin: 0;
   }
   body {
+    color: theme('colors.gray.500');
     background-color: theme('colors.gray.100');
     font-family: 'Noto Sans TC', 'Noto Sans', sans-serif;
     @apply font-light;
