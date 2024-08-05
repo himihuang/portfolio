@@ -208,7 +208,7 @@ onMounted(() => {
                   </ul>
                 </div>
                 <img
-                  src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/cleaingnDashboard_img_2.png?raw=true"
+                  src="https://github.com/himihuang/portfolio/blob/main/src/assets/img/cleaningDashboard_img_2.png?raw=true"
                   alt=""
                   class="w-full outline outline-1 divide-black"
                 />
