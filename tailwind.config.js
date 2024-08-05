@@ -1,4 +1,5 @@
-const plugin = require('tailwindcss/plugin')
+const plugin = require('tailwindcss/plugin');
+const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -6,6 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        blue: colors.blue,
+        // neutral: colors.gray,
         black: '#000',
         white: '#fff',
         gray: {

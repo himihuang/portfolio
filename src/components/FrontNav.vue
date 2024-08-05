@@ -35,7 +35,7 @@ onMounted(() => {
       <div class="font-light hidden md:block">
         <RouterLink to="/about" class="btn px-2 ml-6">About</RouterLink>
         <RouterLink to="/work" class="btn px-2 ml-6">Work</RouterLink>
-        <RouterLink to="https://www.cakeresume.com/s--ZnutepCGMUNyH6O9uj4epg--/yiyin-huang-dc01de" _target="blank" class="btn px-2 ml-6 exact">Resume</RouterLink>
+        <a href="https://www.cakeresume.com/s--ZnutepCGMUNyH6O9uj4epg--/yiyin-huang-dc01de" target="_blank" class="btn px-2 ml-6 exact">Resume</a>
         <RouterLink to="/contact" class="btn px-2 ml-6">Contact</RouterLink>
       </div>
       <div class="ham-wrap block md:hidden">
